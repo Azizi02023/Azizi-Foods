@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Azizi-Foods/static/css/main.66ff76d9.css",
-    "main.js": "/Azizi-Foods/static/js/main.0fa66ea9.js",
+    "main.js": "/Azizi-Foods/static/js/main.e4bb256a.js",
     "index.html": "/Azizi-Foods/index.html",
     "main.66ff76d9.css.map": "/Azizi-Foods/static/css/main.66ff76d9.css.map",
-    "main.0fa66ea9.js.map": "/Azizi-Foods/static/js/main.0fa66ea9.js.map"
+    "main.e4bb256a.js.map": "/Azizi-Foods/static/js/main.e4bb256a.js.map"
   },
   "entrypoints": [
     "static/css/main.66ff76d9.css",
-    "static/js/main.0fa66ea9.js"
+    "static/js/main.e4bb256a.js"
   ]
 }
