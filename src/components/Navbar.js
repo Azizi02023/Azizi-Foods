@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {AiOutlineMenu, AiOutlineSearch, AiOutlineShoppingCart, AiOutlineClose,AiOutlineCar, AiOutlineHeart, AiOutlineWallet, AiOutlineQuestionCircle, AiOutlineGift, AiOutlineStar, AiOutlineUserAdd} from 'react-icons/ai'
 
 export const Navbar = () => {
-const [nav, setNav] = useState(true)
+const [nav, setNav] = useState(false)
   return (
     <div className='max-w-[1640px] bg-slate-500 mx-auto flex justify-around items-center p-4 '>
       {/* Left Side */}

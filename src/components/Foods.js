@@ -2,6 +2,12 @@ import React, { useState } from 'react'
 import { data } from '../data/data'
 
 export const Foods = () => {
+
+  function showMessage() {
+    alert("Our website is currently undergoing maintenance to enhance your browsing experience. We apologize for any inconvenience caused and appreciate your patience. Please check back soon for the exciting updates!");
+}
+
+
   const [foods, setFoods] = useState(data)
 
   //Filters for all the categories
@@ -55,7 +61,7 @@ export const Foods = () => {
         {/* Display the data */}
       <div className=' grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
         {foods.map((item, index)=>(
-          <div key={index} className=' border  shadow-lg hover:scale-105 duration-300 rounded-lg'>
+          <div key={index} className=' border  shadow-lg hover:scale-105 duration-300 rounded-lg cursor-pointer'  onClick={() => showMessage()}>
             <img className=' w-full h-[200px]  rounded-t-lg object-cover'
             src={item.image} alt={item.name}></img>
             <div className=' flex justify-between px-2 py-4'>
